@@ -1,0 +1,19 @@
+# ---- Core framework ----
+Django==5.1.4
+djangorestframework==3.15.2
+djangorestframework-simplejwt==5.3.1
+
+# ---- Database ----
+psycopg[binary]==3.2.3
+
+# ---- Config / utils ----
+python-dotenv==1.0.1
+django-cors-headers==4.6.0
+django-filter==24.3
+requests==2.32.3            # Ollama HTTP client
+
+# ---- Dev / quality ----
+pytest==8.3.4
+pytest-django==4.9.0
+coverage==7.6.9
+ruff==0.8.4
